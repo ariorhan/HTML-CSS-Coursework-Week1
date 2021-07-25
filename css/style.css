@@ -6,3 +6,91 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ html,
+ body {
+   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+ }
+ h1 {
+     display:block;
+     text-align: center;
+     font-size: 3rem;    
+ }
+
+ h2 {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #111;
+    margin: 0 0 30px;
+    padding: 0 0 5px;
+    
+    
+    text-align: center;
+ }
+
+ /* Navigation */
+
+ #nav-bar {
+    padding: 25px;    
+    display: block;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(238, 233, 233);
+ }
+ 
+ #nav-bar a{
+    margin: 10px;
+    padding: 7px;
+    color:rgb(9, 33, 43);
+    font-style: italic; 
+
+ }
+
+ p {
+     text-align: center;
+     
+ }
+
+ main{
+     margin: 1rem;
+ }
+ 
+section {
+    margin-right: 2rem;
+    display: block;
+    float: left;
+    width: 65%;
+    align-items: center;
+    border: yellowgreen solid;
+    margin-bottom: 2rem;
+}
+
+aside{
+    float: right;
+    display: block;
+    width: 32%;
+    border: rgb(205, 50, 159) solid;
+    align-items: center;
+    box-sizing: inherit;
+    
+}
+
+ul li{
+    margin: 0 0 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #cecece;
+    padding-left: 15px;
+    position: relative;
+    
+}
+
+footer{
+    margin-top: 1600px;
+    text-align: center;
+
+}
+
+    
